@@ -21,6 +21,7 @@ fun TampilDataView(
     Column(
         modifier = modifier.padding(16.dp) // Apply the modifier with padding here
     ) {
+        TampilData(param = "NIM", argu = uiState.nim)
         TampilData(param = "Nama", argu = uiState.nama)
         TampilData(param = "Jenis Kelamin", argu = uiState.gender)
         TampilData(param = "Email", argu = uiState.email)
