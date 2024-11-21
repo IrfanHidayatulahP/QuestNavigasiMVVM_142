@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuestNavigasiMVVM_142</string>
+    <string name="laki">Laki-laki</string>
+    <string name="wanita">Perempuan</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="alamat">Alamat</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="email">Email Anda</string>
+    <string name="noTelepon">No Telepon</string>
+</resources>
