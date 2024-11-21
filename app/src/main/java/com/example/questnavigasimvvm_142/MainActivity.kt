@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.questnavigasimvvm_142.ui.theme.QuestNavigasiMVVM_142Theme
+import com.example.questnavigasimvvm_142.viewmodel.NavigationControl
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestNavigasiMVVM_142Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    NavigationControl(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
